@@ -1,0 +1,127 @@
+Landing Page
+	- Welcome Message
+	- Import existing character
+	- Create from scratch
+
+Create From Scratch:
+	- Choose if Player
+		- Base Indo
+			- Required
+				-> Character Name
+				-> Player Name
+			- Not Required
+				-> Alignment (dropdown)
+				-> Deity
+				-> Race (dropdown)
+				-> Class (dropdown)
+				-> Gender
+				-> Age
+				-> Background (dropdown)
+			- Gear
+				-> Backpack (bundles of items depending on classes)
+			- Level
+				-> Level
+				-> XP
+		- Ability Scores
+			- Manual (roll 4d6 record highest 3 till 6 numbers or use 15, 14, 13, 12, 10, 8)
+			- Point Buy (all stats at 8 with 27 to assign)
+
+	- Choose if DM
+		-> Campaign Name
+		-> Player Name
+
+Character Page
+	- Stats
+		- Stats
+			-> Armor Class (Base AC + dex mod + magical mod + shield + mod)
+			-> Proficiency ((level/4)+1)
+			-> Initiative (dex mod + mod)
+		- Health
+			-> Health Display
+			-> Take Damage
+			-> Heal
+			-> Add Shield
+		- Abilities + Save Throws
+			-> Score
+			-> Ability
+			-> Bonus (mod)
+			-> Save (mods)
+		- Profile
+			-> Level
+			-> Age
+			-> Experience
+			-> Skin
+			-> Race
+			-> Gender
+			-> Deity
+			-> Class
+			-> Height
+			-> Eyes
+			-> Hair
+			-> Aligntment
+			-> Weight
+		- Background
+			-> Personality Traits
+			-> Bonds
+			-> Ideals
+			-> Flaws
+	- Skills
+		- Skills
+			-> Skill
+			-> Modifier
+			-> Passive
+		- Features, Feats, Traits
+			-> Class Features
+			-> Feats
+			-> Traits
+			-> Proficiencies
+	- Spells
+		- Spell Slots
+			-> Level
+			-> Resets on
+			-> Used
+		- Spell Stats
+			-> Attack Bonus
+			-> Save DC
+			-> Casting Ability
+			-> Cantrips Known
+		- Spells
+			-> Spell
+			-> Level
+			-> Type
+			-> Damage
+			-> Casting Time
+			-> Range
+	- Equipment
+		- Weapons
+			-> Weapon
+			-> To hit
+			-> Damage
+			-> Range
+			-> Property
+		- Magic Items
+			-> Attuned
+			-> Magic Item
+			-> Type
+			-> Charges
+		- Armor
+			-> Equipped
+			-> Armor
+			-> Type
+			-> Armor Class
+		-> Inventory
+			- Coins
+				-> Copper
+				-> Silver
+				-> Electrum
+				-> Gold
+				-> Platinum
+			- Inventory
+				-> Item
+				-> Quantity
+				-> Total Weight
+				-> Total Value
+			-> Notes
+	- Actions (replenish abilities)
+		-> Short Rest
+		-> Long Rest
